@@ -1,0 +1,115 @@
+.phone {
+  background-color: rgba(187, 58, 187, 0.621);
+  width: 160px;
+  height: 300px;
+  position: relative;
+  left: 40%;
+  top: 10rem;
+  border-radius: 7px;
+}
+
+.calculator {
+  background-color: black;
+  border-radius: 7px;
+  width: 148px;
+  position: relative;
+  margin: 0 5px;
+  top: -8rem;
+  left: 40%;
+  cursor: pointer;
+}
+.calculator .top {
+  width: 148px;
+  height: 100px;
+}
+.calculator .top .num1 {
+  display: none;
+}
+.calculator .top .num1.active {
+  color: white;
+  display: block;
+}
+.calculator .top .operation {
+  display: none;
+}
+.calculator .top .operation.active {
+  color: white;
+  display: block;
+}
+.calculator .top .num2 {
+  display: none;
+}
+.calculator .top .num2.active {
+  color: white;
+  display: block;
+}
+.calculator .top .equals {
+  display: none;
+}
+.calculator .top .equals.active {
+  color: white;
+  display: block;
+}
+.calculator .bottom .first .button {
+  text-align: center;
+  border-radius: 50px;
+  width: 25px;
+  margin: 5px;
+  background-color: rgb(211, 210, 210);
+}
+.calculator .bottom .first .button:nth-child(4) {
+  background-color: orange;
+  color: white;
+}
+.calculator .bottom .second .button {
+  text-align: center;
+  background-color: rgba(100, 96, 96, 0.758);
+  border-radius: 50px;
+  width: 25px;
+  margin: 5px;
+  color: white;
+}
+.calculator .bottom .second .button:nth-child(4) {
+  background-color: orange;
+}
+.calculator .bottom .third .button {
+  text-align: center;
+  background-color: rgba(100, 96, 96, 0.758);
+  border-radius: 50px;
+  width: 25px;
+  margin: 5px;
+  color: white;
+}
+.calculator .bottom .third .button:nth-child(4) {
+  background-color: orange;
+}
+.calculator .bottom .fourth .button {
+  text-align: center;
+  background-color: rgba(100, 96, 96, 0.758);
+  border-radius: 50px;
+  width: 25px;
+  margin: 5px;
+  color: white;
+}
+.calculator .bottom .fourth .button:nth-child(4) {
+  background-color: orange;
+}
+.calculator .bottom .fifth .button {
+  background-color: rgba(100, 96, 96, 0.758);
+  border-radius: 50px;
+  margin: 5px;
+  color: white;
+}
+.calculator .bottom .fifth .button:nth-child(1) {
+  width: 62px;
+  padding-left: 10px;
+}
+.calculator .bottom .fifth .button:nth-child(2) {
+  width: 25px;
+  text-align: center;
+}
+.calculator .bottom .fifth .button:nth-child(3) {
+  background-color: orange;
+  width: 25px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
